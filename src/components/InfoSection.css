@@ -1,0 +1,139 @@
+.info-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 63.5px;
+}
+
+.report>div>img {
+    width: 659.5px;
+    height: 573px;
+}
+
+.report>div>h3 {
+    width: 275px;
+    height: 49px;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 49px;
+    letter-spacing: 0.005em;
+    color: #37434E;
+    padding: 35px 0 41px 0;
+}
+
+.report>div>p {
+    width: 545px;
+    height: 49px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #4D5B67;
+    padding-bottom: 20px;
+    text-align: start;
+}
+
+.fin {
+    background: rgba(99, 133, 253, 0.7);
+    margin-top: 46px;
+}
+
+.fin>div>img {
+    width: 677px;
+    height: 465.5px;
+}
+
+.fin>div>h3 {
+    width: 478px;
+    height: 98px;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 49px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    padding-bottom: 41px;
+}
+
+.info-container.fin>div>p {
+    width: 445px;
+    height: 74px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.fin :nth-child(1) {
+    order: 2;
+}
+
+.fin :nth-child(2) {
+    order: 1;
+}
+
+@media screen and (max-width: 720px) {
+    .report>div>img {
+        width: 600.5px;
+        height: 523px;
+    }
+
+    .fin>div>h3 {
+        width: 428px;
+        height: 78px;
+    }
+
+    .report>div>p {
+        width: 495px;
+        height: 40px;
+    }
+
+    .fin>div>img {
+        width: 627px;
+        height: 415.5px;
+    }
+
+    .fin>div>h3 {
+        width: 428px;
+        height: 78px;
+    }
+
+    .info-container.fin>div>p {
+        width: 395px;
+        height: 65px;
+    }
+
+}
+
+@media screen and (max-width: 485px) {
+    .report>div>img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .fin>div>h3 {
+        width: 350px;
+        height: 68px;
+    }
+
+    .report>div>p {
+        width: 350px;
+        height: 30px;
+    }
+
+    .fin>div>img {
+        width: 350px;
+        width: 350px;
+    }
+
+    .fin>div>h3 {
+        width: 350px;
+        height: 68px;
+    }
+
+    .info-container.fin>div>p {
+        width: 350px;
+        height: 55px;
+    }
+}
