@@ -11,7 +11,6 @@ function FinPermissions() {
             "Employee": "#33DBA8",
             "Client": "#FD779F"
         },
-        p: "Owner is eligible to set up the access of financial information on a workspace level."
     }
     return (
         <>

@@ -106,6 +106,13 @@
 
 }
 
+@media screen and (max-width: 627px) {
+    .fin>div>img {
+        width: 485px;
+        height: 315.5px;
+    }
+}
+
 @media screen and (max-width: 485px) {
     .report>div>img {
         width: 350px;

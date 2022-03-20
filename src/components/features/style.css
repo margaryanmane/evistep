@@ -51,7 +51,7 @@ p {
     height: 270px;
 }
 
-img {
+.features-info>img {
     width: 42px;
     height: 42px;
     padding: 24px 0 14px 0;

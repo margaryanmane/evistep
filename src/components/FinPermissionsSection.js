@@ -21,12 +21,11 @@ function FinPermissionsSection({ permissionData }) {
                         >
                             <img src={imageSource} alt="man" className="man"></img>
                             <span>{item}</span>
-                            {key === 0 ? <p>{permissionData.p}</p> : ""}
                         </div>
                     })}
                 </div>
                 <div className="perm-img">
-                    <img src="/images/fin-permissions.png" alt="fin-permissions" ></img>
+                    <img src="/images/fin-permissions.png" alt="fin-permissions" className="fin-perm-img"></img>
                 </div>
             </div>
         </div>

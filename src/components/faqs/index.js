@@ -21,7 +21,7 @@ function FAQSection() {
                 <Panel header="Who can set an hourly rate?" key="4">
                     <p>The owner and also the executive manager if the owner gives permission to him/her.</p>
                 </Panel>
-            </Collapse>,
+            </Collapse>
         </div>
     )
 }

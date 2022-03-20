@@ -7,6 +7,7 @@ import Report from "./pages/Report";
 import FinPermissions from "./pages/FinPermissions";
 import Features from "./pages/Features";
 import FAQs from "./pages/FAQ";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           />
         </Routes>
         <FAQs />
+        <Footer />
       </Router>
     </>
   );

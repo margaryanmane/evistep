@@ -28,7 +28,7 @@
 .img-text {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -63,7 +63,6 @@
 }
 
 .perm-info>p {
-    /* left: 10px; */
     margin-left: 10px;
     font-weight: 400;
     font-size: 16px;
@@ -71,4 +70,18 @@
     letter-spacing: 0.01em;
     text-decoration-line: underline;
     color: #4D5B67;
+}
+
+@media screen and (max-width: 736px) {
+    .perm-img>img {
+        width: 500px;
+        height: 286px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .perm-img>img {
+        width: 350px;
+        height: 206px;
+    }
 }
