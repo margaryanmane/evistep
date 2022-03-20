@@ -4,6 +4,9 @@ import Header from "./components/header";
 import FinInfo from "./pages/FinInfo";
 import Home from "./pages/Home";
 import Report from "./pages/Report";
+import FinPermissions from "./pages/FinPermissions";
+import Features from "./pages/Features";
+import FAQs from "./pages/FAQ";
 
 function App() {
   return (
@@ -15,13 +18,17 @@ function App() {
             path="/"
             element={<Home />}
           />
-          {/* <Route
-            path="/"
-            element={<Report />}
-          /> */}
         </Routes>
-        <Report/>
+        <Report />
         <FinInfo />
+        <FinPermissions />
+        <Routes>
+          <Route
+            path="/features"
+            element={<Features />}
+          />
+        </Routes>
+        <FAQs />
       </Router>
     </>
   );

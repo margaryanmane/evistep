@@ -1,0 +1,74 @@
+.fin-permission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.permission-text {
+    padding: 130px 0 13px 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFBE5B;
+    text-align: center;
+}
+
+.permission-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 49px;
+    letter-spacing: 0.005em;
+    color: #37434E;
+}
+
+.img-text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.perm-info {
+    display: flex;
+    flex-flow: column wrap;
+    width: 516px;
+    height: 435px;
+    padding-top: 10px;
+}
+
+.man {
+    padding: 5px 16px 20px 26px;
+}
+
+.verticalLine>span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    color: #37434E;
+}
+
+.perm-img>img {
+    width: 736.5px;
+    height: 346px;
+    padding-top: 129px;
+}
+
+.verticalLine {
+    margin-bottom: 19px;
+}
+
+.perm-info>p {
+    /* left: 10px; */
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #4D5B67;
+}
