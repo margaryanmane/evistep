@@ -2,7 +2,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    min-height: 260px;
+    width: 100%;
+    /* min-height: 260px; */
 }
 
 .tracking {
@@ -36,10 +37,11 @@ h4 {
 }
 
 .footer-links {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 73px;
+    /* height: 73px; */
     background: rgba(130, 118, 255, 0.04);
     padding: 22px 304px 14px 0;
 }

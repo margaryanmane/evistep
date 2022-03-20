@@ -7,6 +7,7 @@ import Report from "./pages/Report";
 import FinPermissions from "./pages/FinPermissions";
 import Features from "./pages/Features";
 import FAQs from "./pages/FAQ";
+import TimeTracker from "./pages/TimeTracker";
 import Footer from "./pages/Footer";
 
 function App() {
@@ -23,13 +24,9 @@ function App() {
         <Report />
         <FinInfo />
         <FinPermissions />
-        <Routes>
-          <Route
-            path="/features"
-            element={<Features />}
-          />
-        </Routes>
+        <Features />
         <FAQs />
+        <TimeTracker />
         <Footer />
       </Router>
     </>

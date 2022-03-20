@@ -28,7 +28,7 @@
 .img-text {
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 
@@ -75,7 +75,8 @@
 @media screen and (max-width: 736px) {
     .perm-img>img {
         width: 500px;
-        height: 286px;
+        height: 326px;
+        padding-top: 59px;
     }
 }
 
